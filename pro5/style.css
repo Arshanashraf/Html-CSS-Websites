@@ -1,7 +1,9 @@
 *{
 
 }
-body h1{
-    font-weight: bold;
-    color: aqua;
+.Navbar .logo{
+    color: red;
+}
+.Navbar .youtube_search .input{
+    background: black;
 }
