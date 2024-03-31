@@ -1,0 +1,104 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fontawesome from cdnjs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./main.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>facebook clone</title>
+</head>
+
+<body>
+    <!-- login -->
+    <div class="container d-flex flex-column flex-lg-row justify-content-evenly mt-5 pt-5">
+        <!-- heading -->
+        <div class="text-center text-lg-start mt-lg-5 pt-lg-5">
+            <h1 class="text-primary fw-bold fs-0">facebook</h1>
+            <p class="w-75 mx-auto mx-lg-0 fs-4">Facebook helps you connect and share with the people in your life.</p>
+        </div>
+        <!-- form -->
+        <div style="max-width: 28rem; width: 100%;">
+            <div class="bg-white shadow rounded p-3 input-group-lg">
+                <input type="email" class="form-control my-3" placeholder="Email address or phone number">
+                <input type="password" class="form-control my-3" placeholder="Password">
+                <a href="#">
+                    <button class="btn btn-primary w-100 my-3">Log In</button>
+                </a>
+                <a href="#" class="text-decoration-none text-center">
+                    <p>forgotten password</p>
+                </a>
+                <!-- create form -->
+                <hr>
+                <div class="text-center my-4">
+                    <button class="btn btn-success btn-lg" data-bs-toggle="modal" data-bs-target="#createModal">Create New Account</button>
+                </div>
+                <!-- create modal -->
+            
+
+                <!-- Modal -->
+                <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="createModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <!-- head -->
+                            <div class="modal-header">
+                                <div>
+                                <h2 class="modal-title fs-5" id="createModalLabel">Sign Up</h2>
+                                <p class="text-muted fs-7">It's quick and easy.</p>
+                            </div>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <!-- body -->
+                            <div class="modal-body">
+                                <form>
+                                    <!-- name -->
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="First Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Surname">
+                                        </div>
+                                    </div>
+                                    <!-- email & pass -->
+                                    <!-- DOB -->
+                                    <!-- gender -->
+                                    <!-- gender select -->
+                                    <!-- Disclaimer -->
+                                    <!-- btn -->
+                                </form>
+                            </div>
+                            <!-- footer -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <!-- main.js -->
+    <script src="./main.js"></script>
+</body>
+
+</html>
