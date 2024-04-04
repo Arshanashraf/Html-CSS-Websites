@@ -1,18 +1,88 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
 
-/* .container{
-    border: 2px solid red;
-    height: 100vh;
-    padding: 0;
-} */
-.container{
+
+body {
     width: 100%;
-    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(1.jpg);
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(image/backgroud.jpg);
     background-position: center;
     background-size: cover;
-    height: 109vh;
+    height: 120vh;
+    background-repeat: no-repeat;
+}
+.navbar a img{
+    height: 100px;
+}
+
+
+.nav-item {
+    &:hover, &:focus {
+        background-color: blue;
+      }
+  }
+
+.container{
+    height: 100vh;
+    padding: 0px;
+}
+.content{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content-heading h1{
+    color: white;
+    font-size: 80px;
+    font-weight: bolder;
+}
+.content-heading h2{
+    color: blue;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.content-heading ul li{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.content-img{
+    position: relative;
+    height: 600px;
+}
+.partition{
+    height: 65vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.partition-heading h2{
+    color: blue;
+    font-size: 70px;
+    font-weight: bold;
+}
+.partition-heading p {
+    font-size: large;
+    font-weight: 400;
+}
+
+.partition-img img {
+    width: 500px;
+    height: 400px;
+}
+.partition2{
+    flex-direction: row-reverse;
+}
+.partition4{
+    flex-direction: row-reverse;
+}
+.partition5 img{
+    height: 40vh;
 }
