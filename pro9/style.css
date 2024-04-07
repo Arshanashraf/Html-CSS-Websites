@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: #0071F8;
+    height: 80px;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.navbar-brand img{
+    width: 110px;
+    padding-top: 5px;
+    margin-left: -25px;
+}
+
+.collapse{
+    justify-content: end;
+    padding-top: 5px;
+    text-align: left;
+}
+ .navbar-nav li a{
+    font-size: 16px;
+    font-weight: 300;
+    justify-content: space-evenly;
+    padding-left: 35px;
+    transition: background-color .3s;
+}
+.navbar-nav li a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px;
+}
+.nav-item2,
+.nav-item3,
+.nav-item4,
+.nav-item5{
+    margin-left: 30px;
+}
+
+main{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 150vh;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 150px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.heading{
+    margin-top: 200px;
+}
+h2::after{
+    background-image: url(images/underline.png);
+    box-sizing: border-box;
+    left: 125px;
+}
+.searchText{
+    background-color: white;
+    border-color: rgb(122, 122, 122) ;
+    border-radius: 25px;
+    box-sizing: border-box;
+    color: rgb(122, 122, 122);
+    cursor: text;
+    display: inline-block;
+    font-size: 14px;
+    font-stretch: 100%;
+    font-weight: 400;
+    height: 50px;
+    max-width: 100%;
+}
