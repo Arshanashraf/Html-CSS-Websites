@@ -13,6 +13,7 @@ header{
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 100;
 }
 
 .navbar-brand img{
@@ -50,7 +51,7 @@ main{
     background-size: cover;
     background-repeat: no-repeat;
     width: 1349px;
-    height: 150vh;
+    height: 140vh;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
 }
@@ -79,4 +80,140 @@ h2::after{
     font-weight: 400;
     height: 50px;
     max-width: 100%;
+    line-height: 21px;
+    outline-color: rgb(122, 122, 122);
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: start;
+    width: 450px;
+    border-width: 0px;
+}
+.button{
+    appearance: button;
+    align-items: flex-start;
+    background-color:  #EE626B;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+    border-width: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 500;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+    padding-inline-start: 25px;
+    padding-inline-end: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    position: absolute;
+    text-align: center;
+    left: 427px;
+    bottom: 46px;
+    transition: background-color .3s ease;
+}
+.button:hover{
+    background-color: #0071F8;
+}
+.right-image img{
+    margin-top: 200px;
+    border-radius: 25px;
+    vertical-align: middle;
+    width: 350px;
+}
+.prize{
+    background-color: #0071F8;
+    border: 0px solid white;
+    border-radius: 25px;
+    color: white;
+    box-sizing: border-box;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    margin: 0px;
+    padding: 4px 15px 4px 15px;
+    position: absolute;
+    top: 220px;
+    right: 145px;
+}
+.offer{
+    background-color: #EE626B;
+    border: 0px solid white;
+    color: white;
+    border-radius: 50%;
+    box-sizing: border-box;
+    font-size: 28px;
+    font-weight: 700;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    right: 400px;
+}
+.item{
+    border-radius: 25px;
+    background-color: white;
+    padding: 35px 35px 35px 35px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.image{
+    background-color: #0071F8;
+    border: 0px solid #0071F8;
+    border-radius: 50%;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 90px;
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+}
+.image img{
+    width: 44px;
+    line-height: 90px;
+}
+.image-content{
+    display: block;
+    line-height: 20.4px;
+    margin-block-start: 25px;
+}
+.features{
+    margin-top: -80px;
+}
+ .image:hover{
+    background-color: #EE626B;
+}
+.trending{
+    margin-top: 100px;
+}
+.section-heading h6{
+    color: #EE626B;
+    box-sizing: border-box;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: start;
+}
+.section-heading h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 20px;
+    text-align: start;
+    display: block;
 }
