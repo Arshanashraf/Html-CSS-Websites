@@ -420,10 +420,42 @@ h2::after{
     padding-inline-end: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    /* position: absolute; */
+    position: absolute;
     text-align: center;
-    /* left: 427px; */
-    bottom: 46px;
+    left: 240px;
+    bottom: 80px;
     transition: background-color .3s ease;
 }
+.search-input button:hover{
+    background-color: #0071F8;
+}
+.subscribe{
+    background-color: rgb(247, 247, 247);
+    width: 500px;
+    padding-top: 80px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 80px;
+    border-radius: 30px;
+    margin-left: 500px;
+    margin-top: -430px;
+    position: relative;
+}
 
+footer{
+    background-image: url(images/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1349px;
+    height: 150px;
+    margin-top: 260px;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    transition: opacity .3s ease;
+}
+footer a:hover{
+    opacity: .7;
+}
+@media (max-width: 600px) {
+    
+}
