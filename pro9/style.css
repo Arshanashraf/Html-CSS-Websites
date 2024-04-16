@@ -22,27 +22,38 @@ header{
     margin-left: -25px;
 }
 
-.collapse{
+
+.container-fluid{
     justify-content: end;
     padding-top: 5px;
     text-align: left;
 }
- .navbar-nav li a{
+
+
+.navbar-nav li a{
+    color: white;
     font-size: 16px;
     font-weight: 300;
     justify-content: space-evenly;
     padding-left: 35px;
     transition: background-color .3s;
 }
-.navbar-nav li a:hover{
+.nav-item1 a.active{
     background-color: rgba(255, 255, 255, 0.1);
-    padding: 8px 20px 8px 20px;
-    border-radius: 20px;
 }
-.nav-item2,
+.nav-item5 a{
+    background-color: #EE626B;
+}
+.nav-item2 a:hover,
+.nav-item3 a:hover,
+.nav-item4 a:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* .nav-item2,
 .nav-item3,
-.nav-item4,
-.nav-item5{
+.nav-item4, */
+.nav-item{
+    display: block;
     margin-left: 15px;
 }
 
@@ -462,26 +473,40 @@ footer a:hover{
         font-size: 16px;
     }
 }
-@media (max-width: 858px){
+@media (max-width: 800px){
     .navbar-toggler{
         display: block;
     }
     ul{
         position: fixed;
-        width: 400px;
-        background: black;
+        width: 550px;
+        margin-left: 100px;
+        background: darkblue;
         align-items: center;
-        height: 50vh;
-        color: black;
+        height: 42vh;
         top: 80px;
         left: 0px;
         text-align: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
     }
     nav ul li{
         display: block;
     }
     nav ul li a{
         font-size: 80px;
-        color: black;
+        margin-top: 10px;
     }
+    .nav-item1 a.active{
+        color: #EE626B;
+        background-color: #0071F8;
+    }
+    .nav-item5 a{
+        background-color: darkblue;
+    }
+    .nav-item a:hover{
+        
+        background-color: #0071F8;
+    }
+
 }

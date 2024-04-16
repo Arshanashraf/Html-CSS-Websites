@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    background-color: #0071F8;
+    height: 80px;
+    border-bottom-left-radius:25px ;
+    border-bottom-right-radius: 25px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1000;
+}
+.logo img{
+    width: 110px;
+    padding-bottom: 35px;
+    margin-left: -25px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
