@@ -474,6 +474,7 @@ footer a:hover{
     }
 }
 @media (max-width: 800px){
+    
     .navbar-toggler{
         display: block;
     }
@@ -509,4 +510,94 @@ footer a:hover{
         background-color: #0071F8;
     }
 
+    /* main */
+    main{
+        width: 800px;
+        height: 230vh;
+    }
+    .heading{
+        margin-top: 230px;
+        align-items: center;
+        text-align: center;
+    }
+    .heading p{
+        width: 500px;
+        margin-left: 100px;
+    }
+    .heading .button{
+        left: 485px;
+        bottom: 79px;
+    }
+    .right-image img{
+        margin-left: 100px;
+        margin-top: 50px;
+        width: 500px;
+        position: relative;
+    }
+    .prize{
+        top: 625px;
+        right: 155px;
+    }
+    .offer{
+        top: 1100px;
+        left: 175px;
+    }
+    footer{
+        width: 800px;
+    }
 }
+@media(min-width: 800px) and (max-width: 1000px){
+    header{
+        background-color: #0071F8;
+        height: 80px;
+        border-bottom-left-radius:25px ;
+        border-bottom-right-radius: 25px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: 1000;
+    }
+    .navbar-brand img{
+        margin-left: -70px;
+    }
+    .navbar-toggler{
+        display: none;
+
+    }
+    /* .container-fluid{
+        justify-content: end;
+        padding-top: 5px;
+        text-align: left;
+    } */
+    ul{
+        max-width: 1000px;
+        display: flex;
+        background: darkblue;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    nav ul li{
+        margin: 0 5px;
+    }
+    nav ul li a{
+        display: inline-block;
+        justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+}
+/* .navbar-nav li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+    justify-content: space-evenly;
+    padding-left: 35px;
+    transition: background-color .3s;
+}
+.nav-item{
+    display: block;
+    margin-left: 15px;
+} */
