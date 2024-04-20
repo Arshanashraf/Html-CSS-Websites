@@ -589,11 +589,23 @@ footer a:hover{
     .item3 img{
         width: 250px;
     }
-    .categories .item-3{
-        margin-right: 200px;
+    .section-heading1{
+        padding-left: 40px;
+        padding-right:10px;
+    }
+    .subscribe{
+        margin-top: 30px;
+        margin-left: 0px;
+        padding-left: 40px;
+        padding-right: 1ppx;
+    }
+    .subscribe button{
+        width: 400px;
+        bottom: 15px;
+        left: 40px;
     }
     footer{
-        width: 800px;
+        width: 766px;
     }
 }
 /* @media(min-width: 800px) and (max-width: 1000px){
