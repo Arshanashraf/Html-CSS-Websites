@@ -62,7 +62,9 @@ main{
     background-image: url(images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1349px;
+    background-attachment: fixed;
+    background-position: center;
+    width: auto;
     height: 140vh;
     border-bottom-left-radius: 150px;
     border-bottom-right-radius: 150px;
@@ -461,7 +463,7 @@ footer{
     background-image: url(images/footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1349px;
+    width: auto;
     height: 150px;
     margin-top: 260px;
     border-top-left-radius: 150px;
@@ -511,7 +513,7 @@ footer a:hover{
 
     /* main */
     main{
-        width: 750px;
+        width: auto;
         height: 230vh;
     }
     .heading{
@@ -590,6 +592,7 @@ footer a:hover{
         width: 250px;
     }
     .section-heading1{
+        margin-top: 300px;
         padding-left: 40px;
         padding-right:10px;
     }
@@ -600,16 +603,20 @@ footer a:hover{
         padding-right: 1ppx;
     }
     .subscribe button{
-        width: 400px;
+        width: 370px;
         bottom: 15px;
         left: 40px;
+    } 
+    .info img{
+        width: 10px;
     }
     footer{
         width: 766px;
     }
+
 }
-/* @media(min-width: 800px) and (max-width: 1000px){
-    header{
+ @media(min-width: 767px) and (max-width: 991px){
+    /*header{
         background-color: #0071F8;
         height: 80px;
         border-bottom-left-radius:25px ;
@@ -648,5 +655,97 @@ footer a:hover{
         justify-content: space-between;
         margin-left: 0px;
         margin-right: 0px;
-    }  
-} */
+    }  */
+    main{
+        width: auto;
+        height: 260vh;
+    }
+    .heading{
+        margin-top: 230px;
+        align-items: center;
+        text-align: center;
+    }
+    .heading .searchText {
+        width: 900px;
+    }
+    .heading .button{
+        left: 690px;
+        bottom: 117px;
+        text-transform: uppercase;
+    }
+    .right-image img{
+        margin-top: 50px;
+        width: 710px;
+        position: relative;
+    }
+    .prize{
+        top: 605px;
+        right: 150px;
+    }
+    .offer{
+        top: 1370px;
+        left: 90px;
+    }
+    .trending .main-button{
+        margin-top: -120px;
+    }
+    .item1 img{
+        width: 335px;
+    }
+    .trending .price{
+        right: -50px;
+    }
+    .most-played .section-heading h6{
+        text-align: center;
+    }
+    .most-played .section-heading h2{
+        text-align: center;
+    }
+    .most-played .main-button{
+        margin-right: 280px;
+        margin-top: 15px;
+    }
+    .item2{
+        width: 335px;
+    }
+    .item2 img{
+        width: 335px;
+    }
+    .item2 a{
+        left: 120px;
+    }
+    .categories .section-heading{
+        margin-bottom: 200px;
+    }
+    .item3{
+        width: 330px;
+        justify-content: left;
+        margin-top: -130px;
+    }
+    .item3 img{
+        width: 330px;
+    }
+    .section-heading1{
+        margin-top: 300px;
+        padding-left: 40px;
+        width: 700px;
+    }
+    .subscribe{
+        margin-top: 30px;
+        margin-left: 0px;
+        padding-left: 30px;
+        width: 700px;
+    }
+    .subscribe input{
+        width: 800px;
+    }
+    .subscribe button{
+        left: 500px;
+    } 
+    .info img{
+        width: 10px;
+    }
+    footer{
+        width: auto;
+    }
+}
