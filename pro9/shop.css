@@ -82,6 +82,7 @@ main{
 }
 .trending-nav{
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     justify-content: center;
     align-items: center;
@@ -110,8 +111,14 @@ main{
 {
     padding-top: 50px;
 }
+.filter-items{
+    display: flex;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
 
 .item{
+    flex-basis: 300px;
     background-color: rgb(238, 235, 237);
     border-radius: 25px;
     padding-top: 0px;

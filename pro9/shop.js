@@ -10,6 +10,10 @@ const filterCards = e => {
 
     filterItems.forEach(item =>{
         item.classList.add("hide");
+
+        if(item.dataset.name === e.target.dataset.name || e.target.dataset.name === "all"){
+            item.classList.remove("hide");
+        }
     })
 }
 
