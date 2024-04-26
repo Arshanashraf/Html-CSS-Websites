@@ -74,11 +74,77 @@ main{
 }
 
 .product{
-    margin-top: 50px;
+    margin-top: 100px;
 }
+
 .left-image img{
     width: 450px;
 }
+.product-heading{
+    margin-left: -20px;
+}
+.product-heading h4{
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+.product-heading .price{
+    color: #0071F8;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.product-heading .price em{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 17px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.product-heading p{
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+.form-control{
+    text-align: center;
+    height: 50px;
+    border-radius: 25px;
+    font-weight: 400;
+}
+.product-heading button{
+    background-color: #EE626B;
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    font-size: 15px;
+    font-weight: 500;
+    height: 50px;
+    color: white;
+    border: none;
+    position: absolute;
+    bottom: -220px;
+    right: 410px;
+    transition: background-color .15s ease;
+}
+.product-heading button:hover{
+    background-color: #0071F8;
+}
+
+.product-heading ul{
+    margin-top: 50px;
+    margin-left: -35px;
+    list-style: none;
+}
+.product-heading ul li{
+    line-height: 40px;
+    color: #0071F8;
+    font-size: 14px;
+    font-weight: 400;
+}
+
 footer{
     background-image: url(images/footer-bg.jpg);
     background-size: cover;
