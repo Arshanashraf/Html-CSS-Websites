@@ -145,13 +145,111 @@ main{
     font-weight: 400;
 }
 
+
+.tabs{
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 400px; */
+    background-color: rgb(247,247,247);
+    border-radius: 25px;
+    margin-top: 30px;
+}
+.tabs-label {
+    /* padding-right: 10px; */
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.tabs-radio{
+    display: none;
+}
+.tab-content{
+    order: 1;
+    width: auto;
+    margin: 30px 60px 70px 60px;
+    line-height: 2;
+    font-size: 0.9rem;
+    display: none;
+}
+.tabs-radio:checked+.tabs-label {
+    font-weight: bold;
+    color: #0071F8;
+    /* border-right: 1px solid grey; */
+
+}
+.tabs-radio:checked+.tabs-label+.tab-content{
+    display: initial;
+}
+
+
+.section-heading h6{
+    color: #EE626B;
+    box-sizing: border-box;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    text-align: start;
+}
+.section-heading h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 20px;
+    text-align: start;
+    display: block;
+}
+.main-button{
+    text-align: right;
+    margin-top: 160px;
+}
+.main-button a{
+    background-color: #EE626B;
+    color: white;
+    text-decoration: none;
+    text-decoration-style: solid;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+.main-button a:hover{
+    background-color: #0071F8;
+    color: white;
+}
+.item3{
+    background-color: #0071F8;
+    border-radius: 25px;
+    width: 200px;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    text-align: starts;
+    gap: 140px;
+}
+.card-body3{
+    color: white;
+    padding-top: 20px;
+}
+.card img{
+    border-radius: 25px;
+}
+
 footer{
     background-image: url(images/footer-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
     height: 150px;
-    margin-top: 1500px;
+    /* margin-top: 1200px; */
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     transition: opacity .3s ease;
