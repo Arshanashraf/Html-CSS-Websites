@@ -232,8 +232,19 @@ main{
     width: 200px;
     margin-top: 80px;
     margin-bottom: 200px;
-    text-align: starts;
-    gap: 140px;
+}
+.item-2
+{
+    margin-left: 40px;
+}
+.item-3{
+    margin-left: 80px;
+}
+.item-4{
+    margin-left: 120px;
+}
+.item-5{
+    margin-left: 60px;
 }
 .card-body3{
     color: white;
@@ -256,4 +267,70 @@ footer{
 }
 footer a:hover{
     opacity: .7;
+}
+@media(max-width: 767px){
+    .left-image img{
+        width : 650px;
+        margin-left: -60px;
+    }
+    .product-heading button{
+        bottom: -880px;
+        right: 390px;
+    }
+    .tabs{
+        margin-left: -60px;
+        width: 650px;
+    }
+    .main-button{
+        text-align: right;
+        margin-top: -50px;
+    }
+    .item3{
+        width: 250px;
+    }
+    .item3 img{
+        width: 250px;
+    }
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5{
+        margin-left: 0px;
+    }
+    .item-3,
+    .item-4,
+    .item-5{
+        margin-top: -170px;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .left-image img{
+        width : 750px;
+        margin-left: -20px;
+    }
+    .product-heading button{
+        bottom: -985px;
+        right: 570px;
+    }
+    .main-button{
+        text-align: right;
+        margin-top: -50px;
+    }
+    .item3{
+        width: 330px;
+    }
+    .item3 img{
+        width: 330px;
+    }
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5{
+        margin-left: 0px;
+    }
+    .item-3,
+    .item-4,
+    .item-5{
+        margin-top: -170px;
+    }
 }

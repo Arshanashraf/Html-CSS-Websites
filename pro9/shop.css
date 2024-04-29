@@ -179,6 +179,7 @@ main{
     align-items: center;
     margin-top: 50px;
     margin-left: 20px;
+    margin-bottom: 150px;
 }
 .pagination li{
     margin: 0 0.5rem;
@@ -207,11 +208,36 @@ footer{
     background-repeat: no-repeat;
     width: auto;
     height: 150px;
-    margin-top: 1500px;
+    /* margin-top: 1500px; */
     border-top-left-radius: 150px;
     border-top-right-radius: 150px;
     transition: opacity .3s ease;
 }
 footer a:hover{
     opacity: .7;
+}
+@media (max-width: 767px){
+    .trending-nav li{
+        margin: 0 0.4rem;
+    }
+    .item{
+        padding-right: 260px;
+    }
+    .card img{
+        width: 517px;
+    }
+    .price{
+        right: -240px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .item{
+        padding-right: 75px;
+    }
+    .card img{
+        width: 335px;
+    }
+    .price{
+        right: -50px;
+    }
 }

@@ -354,13 +354,26 @@ h2::after{
     background-color: #0071F8;
     color: white;
 }
+
 .item3{
     background-color: #0071F8;
     border-radius: 25px;
     width: 200px;
     margin-top: 80px;
     margin-bottom: 200px;
-    text-align: starts;
+}
+.item-2
+{
+    margin-left: 40px;
+}
+.item-3{
+    margin-left: 80px;
+}
+.item-4{
+    margin-left: 120px;
+}
+.item-5{
+    margin-left: 60px;
 }
 .card-body3{
     color: white;
@@ -591,6 +604,18 @@ footer a:hover{
     .item3 img{
         width: 250px;
     }
+    
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5{
+        margin-left: 0px;
+    }
+    .item-3,
+    .item-4,
+    .item-5{
+        margin-top: -170px;
+    }
     .section-heading1{
         margin-top: 300px;
         padding-left: 40px;
@@ -722,8 +747,21 @@ footer a:hover{
         justify-content: left;
         margin-top: -130px;
     }
+    
     .item3 img{
         width: 330px;
+    }
+    
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5{
+        margin-left: 0px;
+    }
+    .item-3,
+    .item-4,
+    .item-5{
+        margin-top: -170px;
     }
     .section-heading1{
         margin-top: 300px;
