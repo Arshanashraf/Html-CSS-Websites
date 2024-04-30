@@ -76,12 +76,12 @@ main{
 .heading{
     margin-top: 200px;
 }
-h2::after{
-    background-image: url(images/underline.png);
-    box-sizing: border-box;
-    left: 125px;
+.underline img{
+    margin-top: -110px;
+    padding-left: 120px;
 }
 .searchText{
+    /* margin-top: -10px; */
     background-color: white;
     border-color: rgb(122, 122, 122) ;
     border-radius: 25px;
@@ -128,7 +128,7 @@ h2::after{
     position: absolute;
     text-align: center;
     left: 427px;
-    bottom: 46px;
+    bottom: 34px;
     transition: background-color .3s ease;
 }
 .button:hover{
@@ -534,6 +534,9 @@ footer a:hover{
         align-items: center;
         text-align: center;
     }
+    .underline {
+        margin-left: -200px;
+    }
     .heading p{
         width: 500px;
     }
@@ -542,7 +545,7 @@ footer a:hover{
     }
     .heading .button{
         left: 492px;
-        bottom: 22px;
+        bottom: -2px;
     }
     .right-image img{
         margin-top: 50px;
@@ -550,11 +553,11 @@ footer a:hover{
         position: relative;
     }
     .prize{
-        top: 683px;
+        top: 700px;
         right: 135px;
     }
     .offer{
-        top: 1180px;
+        top: 1200px;
         left: 140px;
     }
     .features{
@@ -693,9 +696,12 @@ footer a:hover{
     .heading .searchText {
         width: 900px;
     }
+    .underline {
+        margin-left: -350px;
+    }
     .heading .button{
-        left: 690px;
-        bottom: 117px;
+        left: 650px;
+        bottom: 93px;
         text-transform: uppercase;
     }
     .right-image img{
@@ -704,7 +710,7 @@ footer a:hover{
         position: relative;
     }
     .prize{
-        top: 605px;
+        top: 620px;
         right: 150px;
     }
     .offer{
