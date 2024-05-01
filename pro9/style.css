@@ -31,7 +31,7 @@ header{
 }
 
 .navbar-nav li a{
-    color: white;
+    color: white !important;
     font-size: 16px;
     font-weight: 300;
     justify-content: space-evenly;
@@ -208,7 +208,7 @@ main{
 .features{
     margin-top: -80px;
 }
- .image:hover{
+.image:hover{
     background-color: #EE626B;
 }
 .trending{
@@ -488,41 +488,37 @@ footer a:hover{
 }
 
 @media (max-width: 766px){
-    
-    /* .navbar-toggler{
-        display: block;
-    } */
-    /* ul{
-        position: fixed;
-        width: 550px;
-        margin-left: 100px;
-        background: darkblue;
-        align-items: center;
-        height: 42vh;
-        top: 80px;
-        left: 0px;
-        text-align: center;
-        border-bottom-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-    } */
-    /* nav ul li{
-        display: block;
-    }
-    nav ul li a{
-        font-size: 80px;
+    .navbar-collapse{
+        background-color: white;
         margin-top: 10px;
+        border-bottom-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+    .navbar-collapse ul li a{
+        text-align: center;
+        color: black !important;
+        padding: 0px;
+        /* border-radius: 0px !important; */
+        transition: color .15s ease;
+    }
+    .nav-item1 a,
+    .nav-item2 a,
+    .nav-item3 a,
+    .nav-item4 a{
+        border-bottom: 1px solid lightgray;
     }
     .nav-item1 a.active{
-        color: #EE626B;
-        background-color: #0071F8;
+        color: #EE626B !important;
     }
     .nav-item5 a{
-        background-color: darkblue;
+        background-color: white;
     }
-    .nav-item a:hover{
-        
-        background-color: #0071F8;
-    } */
+    .nav-item2 a:hover,
+    .nav-item3 a:hover,
+    .nav-item4 a:hover,
+    .nav-item5 a:hover{
+        color: #EE626B !important;
+    }
 
     /* main */
     main{
@@ -644,46 +640,38 @@ footer a:hover{
 
 }
  @media(min-width: 767px) and (max-width: 991px){
-    /*header{
-        background-color: #0071F8;
-        height: 80px;
-        border-bottom-left-radius:25px ;
+    .navbar-collapse{
+        background-color: white;
+        margin-top: 10px;
+        border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        right: 0px;
-        z-index: 1000;
     }
-    .navbar-brand img{
-        margin-left: -70px;
-    }
-    .navbar-toggler{
-        display: none;
-
-    }
-    .container-fluid{
-        justify-content: end;
-        padding-top: 5px;
-        text-align: left;
-    }
-    ul{
-        max-width: 1000px;
-        display: flex;
-        background: darkblue;
-        width: 100%;
-        align-items: center;
+    .navbar-collapse ul li a{
         text-align: center;
+        color: black !important;
+        padding: 0px;
+        /* border-radius: 0px !important; */
+        transition: color .15s ease;
     }
-    nav ul li{
-        margin: 0 5px;
+    .nav-item1 a,
+    .nav-item2 a,
+    .nav-item3 a,
+    .nav-item4 a{
+        border-bottom: 1px solid lightgray;
     }
-    nav ul li a{
-        display: inline-block;
-        justify-content: space-between;
-        margin-left: 0px;
-        margin-right: 0px;
-    }  */
+    .nav-item1 a.active{
+        color: #EE626B !important;
+    }
+    .nav-item5 a{
+        background-color: white;
+    }
+    .nav-item2 a:hover,
+    .nav-item3 a:hover,
+    .nav-item4 a:hover,
+    .nav-item5 a:hover{
+        color: #EE626B !important;
+    }
+
     main{
         width: auto;
         height: 260vh;
